@@ -7,8 +7,7 @@ Repositorio sobre la asignatura de Infraestructuras Virtuales en el que voy a im
 ### Herramientas  
 La herramientas a utilizar serán:
 - [*Python*](https://www.python.org/) como lenguaje de programación.
-- [*Visual Studio Code*](https://code.visualstudio.com/) como editor de texto.
-- [*Django*](https://www.djangoproject.com/) será el framework utilizado.
+- [*Flask*](http://flask.pocoo.org/) será el framework utilizado.
 - [*MariadDB*](https://mariadb.org/) será el sistema de gestión de bases de datos que usaré para mi proyecto.
 ---
 
