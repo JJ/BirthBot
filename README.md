@@ -1,6 +1,6 @@
-# Proyecto IV: BirthBot
----
+# BirthBot
 ### Descripción
+
 Repositorio sobre la asignatura de Infraestructuras Virtuales en el que voy a implementar un servicio web que recuerda los Cumpleaños almacenados en una Base de datos.
 
 ---
@@ -10,3 +10,30 @@ Repositorio sobre la asignatura de Infraestructuras Virtuales en el que voy a im
 - [*MariadDB*](https://mariadb.org/) será el sistema de gestión de bases de datos que usaré para mi proyecto.
 ---
 
+### Desarrollo del proyecto:
+
+* **Descripción de la clase** 
+
+  He creado una clase `birthbot`, situada en la carpeta `travistest`, la cual permite crear un objeto *birthday* a partir de los atributos: *birth_date* y *name*, los cuales describen la fecha de cumpleaños y el nombre respectivamente.
+
+  Las pruebas realizadas hasta el momento se encuentran en `test_birthbot.py` , situado en la carpeta `test` .
+
+* **Instalación**
+
+  Para la instalación debemos clonar el repositorio del proyecto, usando el siguiente comando:
+
+  `git clone https://github.com/Saytes/BirthBot.git`
+
+* **Testeo**
+
+  Para testearlo debemos instalar pytest, usando el siguiente comando:
+
+  `pip install pytest`
+
+  Una vez hecho esto, en la raiz del proyecto, ejecutamos el comando `pytest`.
+
+* **Travis**
+
+  Este proyecto está sincronizado con [Travis](https://travis-ci.org/).
+
+  Tras haber hecho pytest, el resultado obtenido es: [![Build Status](https://travis-ci.org/Saytes/BirthBot.svg?branch=master)](https://travis-ci.org/Saytes/BirthBot)
