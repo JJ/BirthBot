@@ -15,7 +15,7 @@ class Birthday:
     def set_name(self):
         return isinstance(self.name, str)
 
-    #Modificador de la fecha de cumpleaños
+    #Modificador de la fecha de cumpleaños en modo año,mes,día
     def set_birth_date(self, birth_date):
         self.birth_date = birth_date
 
