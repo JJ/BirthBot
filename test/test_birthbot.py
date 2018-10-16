@@ -5,6 +5,7 @@ from pytest import fixture
 
 @fixture
 
+#Operación que comprueba si el cumpleaños está bien
 def op():
     from travistest.birthbot import Birthday
     return Birthday(datetime.date(1995,11,25), "Jorge Gutierrez Segovia")
