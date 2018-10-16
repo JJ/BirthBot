@@ -9,22 +9,8 @@ def op():
     return Birthday(datetime.date(1995,11,25), "Jorge Gutiérrez Segovia")
 
 def test_birt_date(op):
-    assert op.get_birth_date(self)
+    assert op.get_birth_date()
 
-def test_equipo_local(op):
-    assert op.comprobar_equipo_local()
+def test_name(op):
+    assert op.get_name()
 
-def test_equipo_visitante(op):
-    assert op.comprobar_equipo_visitante()
-       
-def test_fecha(op):
-    assert op.comprobar_fecha()
-
-def test_hora(op):
-    assert op.comprobar_hora()
-
-def test_lugar(op):
-    assert op.comprobar_lugar()
-
-def test_canalTV(op):
-    assert op.comprobar_canalTV()

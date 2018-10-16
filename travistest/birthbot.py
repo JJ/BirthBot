@@ -12,7 +12,7 @@ class Birthday:
         return isinstance(self.birth_date, datetime.date)
 
     #Consultor del nombre 
-    def set_name(self):
+    def get_name(self):
         return isinstance(self.name, str)
 
     #Modificador de la fecha de cumpleaños en modo año,mes,día
