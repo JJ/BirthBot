@@ -1,8 +1,6 @@
 sudo: required
 dist: bionic 
 language: python
-virtualenv:
-  systen_site_packages: true
 python:
   - '3.6'
 install:
