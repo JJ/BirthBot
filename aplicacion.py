@@ -3,9 +3,7 @@ from travistest.birthbot import Birthday
 
 app = Flask(__name__)
     
-estadoPorDefecto = {
-    "status": "OK"
-}
+estadoPorDefecto = {"status": "OK"}
 
 @app.route('/')
 def estadoActual():    
