@@ -12,7 +12,7 @@ class Birthday:
 
     @classmethod 
     #Constructor por defecto
-    def initBirth(self):
+    def __init__(self):
         self.birth_date = None
         self.name = None
 
