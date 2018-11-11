@@ -1,12 +1,25 @@
 import datetime
 
 class Birthday:
+
+    @classmethod 
+    #Constructor por parámetros
     #Dos atributos , la fecha del cumpleaños y el nombre
     def __init__(self, birth_date, name):
 
         self.birth_date = birth_date
         self.name = name
 
+    @classmethod 
+    #Constructor por defecto
+    def initBirth(self):
+        self.birth_date = None
+        self.name = None
+
+    #Función que evalua el estado de la clase
+    def status(self):
+        return True
+        
     # Consultor de la fecha de cumpleaños
     def get_birth_date(self):
         return isinstance(self.birth_date, datetime.date)

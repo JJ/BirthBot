@@ -8,11 +8,6 @@
 Repositorio sobre la asignatura de Infraestructuras Virtuales en el que voy a implementar un servicio web que recuerda los Cumpleaños almacenados en una Base de datos.
 
 ---
-### Herramientas usadas
-- [*Python*](https://www.python.org/) como lenguaje de programación.
-- [*Flask*](http://flask.pocoo.org/) será el framework utilizado.
-- [*MariadDB*](https://mariadb.org/) será el sistema de gestión de bases de datos que usaré para mi proyecto.
----
 
 ### Desarrollo del proyecto:
 
@@ -41,3 +36,8 @@ Repositorio sobre la asignatura de Infraestructuras Virtuales en el que voy a im
   Este proyecto está sincronizado con [Travis](https://travis-ci.org/).
 
   Tras haber hecho pytest, el resultado obtenido es: [![Build Status](https://travis-ci.org/Saytes/BirthBot.svg?branch=master)](https://travis-ci.org/Saytes/BirthBot)
+
+* **Despliegue en Heroku**
+  - Despliegue en [Heroku]()
+  - Json [adicional]() al despliegue
+  - [Documentación]() del despliegue de mi aplicación en Heroku
