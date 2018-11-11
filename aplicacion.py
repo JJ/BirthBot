@@ -1,5 +1,4 @@
-from flask import Flask
-import json
+from flask import Flask, jsonify,json
 from travistest.birthbot import Birthday
 
 app = Flask(__name__)
@@ -10,9 +9,9 @@ estadoPorDefecto = {
 
 @app.route('/')
 def estadoActual():    
-    return estadoPorDefecto
+    return jsonify(estadoPorDefecto)
 
-@app.route('/status)
+@app.route('/status')
 def status():
     cumple = Birthday()
     estado = cumple.status()
