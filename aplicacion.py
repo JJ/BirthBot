@@ -3,11 +3,16 @@ from src.birthbot import Birthday
 
 app = Flask(__name__)
     
-estadoPorDefecto = {"status": "OK"}
-
 @app.route('/')
-def estadoActual():    
-    return jsonify(estadoPorDefecto)
+def estadoActual():  
+    cumple = Birthday()
+    estado = cumple.status()
+    
+    if estado:
+        with open('status.json') as j:
+            respuesta = json.load(j)
+
+    return jsonify(respuesta) 
 
 @app.route('/status')
 def status():
