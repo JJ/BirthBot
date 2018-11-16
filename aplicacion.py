@@ -2,12 +2,14 @@ from flask import Flask, jsonify,json
 from src.birthbot import Birthday
 
 app = Flask(__name__)
-    
+
+#Devuelvo siempre status.json 
+
 @app.route('/')
 def estadoActual():  
     cumple = Birthday()
     estado = cumple.status()
-    
+
     if estado:
         with open('status.json') as j:
             respuesta = json.load(j)
