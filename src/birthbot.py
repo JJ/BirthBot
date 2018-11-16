@@ -34,12 +34,5 @@ class Birthday:
 
     #Modificador del nombre
     def set_name(self, name):
-        self.name = name
-
-    #Consultor del cumpleaños
-    def get_birthday(self):
-        print("Nombre: ", self.name)
-        print("Birth Date: ", self.birth_date)
-
- 
+        self.name = name 
     
