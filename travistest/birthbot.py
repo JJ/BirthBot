@@ -5,14 +5,14 @@ class Birthday:
     @classmethod 
     #Constructor por parámetros
     #Dos atributos , la fecha del cumpleaños y el nombre
-    def __init__(self, birth_date, name):
+    def init_argumentos(self, birth_date, name):
 
         self.birth_date = birth_date
         self.name = name
 
     @classmethod 
     #Constructor por defecto
-    def __init__(self):
+    def init_defecto(self):
         self.birth_date = None
         self.name = None
 

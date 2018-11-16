@@ -38,6 +38,6 @@ Repositorio sobre la asignatura de Infraestructuras Virtuales en el que voy a im
   Tras haber hecho pytest, el resultado obtenido es: [![Build Status](https://travis-ci.org/Saytes/BirthBot.svg?branch=master)](https://travis-ci.org/Saytes/BirthBot)
 
 * **Despliegue en Heroku**
-  - Despliegue en [Heroku]()
-  - Json [adicional]() al despliegue
-  - [Documentación]() del despliegue de mi aplicación en Heroku
+  - Despliegue en [Heroku](https://birthbot.herokuapp.com/)
+  - Json [adicional](https://birthbot.herokuapp.com/status) al despliegue
+  - [Documentación](./docs/despliegue.md) del despliegue de mi aplicación en Heroku
