@@ -22,11 +22,11 @@ class Birthday:
         
     # Consultor de la fecha de cumpleaños
     def get_birth_date(self):
-        return isinstance(self.birth_date, datetime.date)
+        return self.birth_date
 
     #Consultor del nombre 
     def get_name(self):
-        return isinstance(self.name, str)
+        return self.name
 
     #Modificador de la fecha de cumpleaños en modo año,mes,día
     def set_birth_date(self, birth_date):

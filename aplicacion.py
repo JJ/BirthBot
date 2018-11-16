@@ -1,5 +1,5 @@
 from flask import Flask, jsonify,json
-from travistest.birthbot import Birthday
+from src.birthbot import Birthday
 
 app = Flask(__name__)
     

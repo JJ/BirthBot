@@ -7,14 +7,14 @@ from pytest import fixture
 
 #Operación que comprueba si el cumpleaños está bien
 def op():
-    from travistest.birthbot import Birthday
+    from src.birthbot import Birthday
     cumpleanios = Birthday()
     cumpleanios.init_argumentos(datetime.date(1995,11,25), "Jorge Gutierrez Segovia")
     return cumpleanios
 
 def test_birt_date(op):
-    assert op.get_birth_date()
+    assert (op.get_birth_date() == datetime.date(1995,11,25))
 
 def test_name(op):
-    assert op.get_name()
+    assert op.get_name() == "Jorge Gutierrez Segovia"
 
