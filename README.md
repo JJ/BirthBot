@@ -44,6 +44,6 @@ Repositorio sobre la asignatura de Infraestructuras Virtuales en el que voy a im
 
 * **Docker**
 
-  * Contenedor: [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://docker-iv.herokuapp.com/status)
+  * Contenedor [docker](https://docker-iv.herokuapp.com/status)
   * [Documentación](./docs/despliegue_docker.md) del despliegue de mi aplicación en Docker.
   * Enlace a [DockerHub](https://hub.docker.com/r/saytes/birthbot/)
