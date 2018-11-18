@@ -42,7 +42,7 @@ Repositorio sobre la asignatura de Infraestructuras Virtuales en el que voy a im
   - Json [adicional](https://birthbot.herokuapp.com/status) al despliegue
   - [Documentación](./docs/despliegue.md) del despliegue de mi aplicación en Heroku
 
-* **Despliegue en Docker**[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://docker-iv.herokuapp.com/status)**
+* **Despliegue en Docker**[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://docker-iv.herokuapp.com/status)
 
   * Despligue en [Docker](https://docker-iv.herokuapp.com/)
   * [Documentación](./docs/despliegue_docker.md) del despliegue de mi aplicación en Docker.
